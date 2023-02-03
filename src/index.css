@@ -1,0 +1,22 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Libre Franklin", sans-serif;
+}
+
+body {
+  padding: 81px 27px 37px 28px;
+  min-height: 100vh;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+@media screen and (min-width: 500px) {
+  body {
+    padding: 80px 0 49px;
+  }
+}
