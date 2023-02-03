@@ -28,8 +28,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [GitHub](https://www.frontendmentor.io/solutions/ping-coming-soon-ILLNOrPeN9)
+- Live Site URL: [Netlify](https://celadon-kleicha-568dec.netlify.app/)
 
 ## My process
 
