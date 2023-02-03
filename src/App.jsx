@@ -29,7 +29,7 @@ function Form() {
   return (
     <form onSubmit={handleSubmit}>
       <input type="text" value={email} onChange={handleChange} placeholder="Your email address..." 
-        style={{borderColor: isValid === null ? 'initial' : isValid ? 'initial' : '#FF5466'}} 
+        style={{borderColor: isValid === null ? '#C2D3FF' : isValid ? '#C2D3FF' : '#FF5466'}} 
       />
       {isValid === false && email === '' ? (
         <p class="error">Whoops! It looks like you forgot to add your email</p> 
@@ -45,7 +45,7 @@ export default function App() {
   return (
     <main>
       <img src={logo} alt="company logo" class="logo" />
-      <h1>We are launching soon!</h1>
+      <h1>We are launching <span>soon!</span></h1>
       <p class="cta">Subscribe and get notified</p>
       <Form />
       <img src={dashboard} alt="dashboard with graphs" class="dashboard" />
